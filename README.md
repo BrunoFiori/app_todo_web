@@ -1,4 +1,3 @@
-```
 # Vite + React Project
 
 Este é um projeto de exemplo que usa Vite e React.
