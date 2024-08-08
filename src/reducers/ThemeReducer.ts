@@ -1,4 +1,4 @@
-import { TOGGLE_THEME } from '../actions/ThemeActions';
+import { TOGGLE_THEME } from '../Actions/ThemeActions';
 
 interface ThemeState {
   value: boolean;

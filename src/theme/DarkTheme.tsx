@@ -4,10 +4,18 @@ const DarkTheme: ThemeOptions = {
   palette: {
     mode: 'dark',
     primary: {
-      main: '#000',
+      main: '#3f51b5',
     },
     secondary: {
-      main: '#000',
+      main: '#f50057',
+    },
+  },
+  components: {
+    MuiButton: {
+      defaultProps: {
+        variant: 'contained',
+        color: 'primary',
+      },
     },
   },
   direction: 'ltr',

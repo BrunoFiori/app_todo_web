@@ -3,7 +3,6 @@ import * as S from './styles';
 
 const Header = () => {
   const navItems = ['Nome da Loja', 'Livros', 'Eletrônicos', 'Presentes'];
-
   return (
     <S.StyledHeader>
       <S.StyledGroupMenuButtons>

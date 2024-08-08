@@ -49,7 +49,6 @@ const StyledTitle = styled(Typography)`
 const StyledDescription = styled(Typography)`
   margin: 10px 0;
   text-align: center;
-  color: #666;
   font-size: 14px;
   line-height: 1.5;
   height: 100px;
@@ -68,7 +67,7 @@ const StyledPriceGroup = styled('div')`
 `;
 
 const StyledPrice = styled(Typography)<{ color?: string; old?: boolean }>`
-  color: ${({ color = 'black' }) => color};
+  ${({ color }) => color && `color: ${color}`};
   ${({ old }) => old && 'text-decoration: line-through'};
 `;
 

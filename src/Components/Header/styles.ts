@@ -3,7 +3,6 @@ import { AppBar, Box, Button } from '@mui/material';
 
 const StyledHeader = styled(AppBar)`
   width: 100%;
-  background-color: #333;
   text-align: center;
   padding: 2rem 0;
   display: flex;
@@ -17,8 +16,6 @@ const StyledGroupMenuButtons = styled(Box)`
   align-items: center;
 `;
 
-const StyledMenuButton = styled(Button)`
-  color: #fff;
-`;
+const StyledMenuButton = styled(Button)``;
 
 export { StyledHeader, StyledMenuButton, StyledGroupMenuButtons };
